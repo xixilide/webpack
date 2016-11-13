@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^5.0.0-beta4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
+    "build": "npm run clean && npm run build:webpack",
+    "start": "node devServer.js",
+     "dev": "./node_modules/.bin/webpack"
+  },
+  "name": "git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "express": "^4.13.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "^2.6.0"
+  },
+  "author": "xixilide",
+  "license": "ISC",
+  "description": "初步git",
+  "keywords": [
+    "git"
+  ]
+}

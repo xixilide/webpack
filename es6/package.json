@@ -1,0 +1,24 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "es6基本用法",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -v",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-latest": "^6.16.0"
+    
+  }
+}
