@@ -324,7 +324,7 @@ $ touch .babelrc
 然后编辑babelrc 代码清单：.babelrc
 ```
 {
-  "presets": ["es2015", "react", "stage-0"],
+   "presets": ["latest"],
   "plugins": []
 }
 ```
@@ -333,10 +333,9 @@ $ touch .babelrc
 
 这里使用到了三个预设需要下载安装
 ```
-$ npm install --save-dev babel-preset-es2015 babel-preset-react babel-preset-stage-0
+$ npm install --save-dev babel-cli babel-preset-latest
 ```
 
-// 其中stage-0预设是用来说明解析ES7其中一个阶段语法提案的转码规则
 好了，开始运行试一下吧
 ```
 $ npm run dev
