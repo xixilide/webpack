@@ -1,0 +1,31 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "es6基本用法",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -v",
+    "build": "./node_modules/.bin/webpack -w",
+    "start": "node devServer.js",
+    "dev": "./node_modules/.bin/webpack"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-latest": "^6.16.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "^2.6.0"
+  }
+}
